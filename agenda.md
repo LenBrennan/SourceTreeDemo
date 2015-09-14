@@ -68,7 +68,23 @@ However pulling is no problem with an uncommitted working copy.
 
 > I've been working on the wrong branch
 
+Assuming you have not pushed your commits:
 
+##### If you started from the right branch (e.g. starting a feature but committed straight into develop)
+1. Create a new branch out of your current state (but don't check it out)
+2. Right click the last commit in the current branch before you started your work
+3. *Reset current branch to this commit*
+4. Select hard mode (all changes are deleted! Make sure you created the branch in step 1)
+5. Switch to your newly created branch
+
+
+##### If you started from the wrong branch (e.g. starting a hotfix but from a feature branch instead of master)
+1. Switch to the correct starting branch
+2. Create a new branch from there and check it out
+3. Cherry pick every commit that from your wrong branch starting with the oldest (set log view to show all branches and
+right click the commit to select *cherry pick*)
+4. Reset the wrong branch to a state before your commits using hard mode (check if the cherry pick worked out as
+planned before)
 
 &nbsp;
 
