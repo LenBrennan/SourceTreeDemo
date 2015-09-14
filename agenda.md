@@ -1,4 +1,4 @@
-# Change these defaults (Tools ? Options)
+# Change these defaults (Tools &rarr; Options)
 
 ### General
 
