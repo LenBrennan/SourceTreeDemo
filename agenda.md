@@ -39,11 +39,43 @@ However pulling is no problem with an uncommitted working copy.
 
 > I made some commits and want to push them as one single commit
 
+1. Make sure you have not pushed your commits yet
+2. Right click the commit you want to push
+3. *Reset current branch to this commit*
+4. Select soft mode (all changes are left in your working copy AND the index is left intact)
+5. Make a new commit containing all of your changes
+
+&nbsp;
+
+&nbsp;
+
+
+> I made some commits but I'd like to only push the first two
+
+1. Create a new branch out of your current state (e.g. *temp/I_WANT_YOU_BACK_FOR_GOOD*) but do not check it out
+2. In your original branch right click the last commit you want to push
+3. *Reset current branch to this commit*
+4. Select mixed mode (all changes are left in your working copy but the index is reset)
+5. Push your commits
+6. Right click the HEAD commit of your backup branch
+7. Select merge (don't use *create a new commit*)
+
+&nbsp;
+
+&nbsp;
+
 
 > I've been working on the wrong branch
 
 
+
+&nbsp;
+
+&nbsp;
+
+
 > I'm not sure if a certain commit is included in the current state
+
 
 ##### SourceTree way
 1. Copy the commit's hash
@@ -56,16 +88,31 @@ However pulling is no problem with an uncommitted working copy.
 2. Open git shell and type `git branch --contains <hash>`
 3. All branches containing the commit will be listed; the current branch is highlighted
 
+&nbsp;
+
+&nbsp;
+
 
 > My local changes are rubbish, I want to get the current state from origin.
+
 1. Make sure you're on the right branch.
 2. Fetch
 3. Right click the latest commit on origin.
 4. *Reset current branch to this commit*
 5. Select mode hard
 
+&nbsp;
+
+&nbsp;
+
 
 > I prematurely pushed commits and want to undo the commits on origin.
+
+
+
+&nbsp;
+
+&nbsp;
 
 
 
