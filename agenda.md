@@ -55,10 +55,11 @@ However pulling is no problem with an uncommitted working copy.
 1. Create a new branch out of your current state (e.g. *temp/I_WANT_YOU_BACK_FOR_GOOD*) but do not check it out
 2. In your original branch right click the last commit you want to push
 3. *Reset current branch to this commit*
-4. Select mixed mode (all changes are left in your working copy but the index is reset)
+4. Select hard mode (all changes are deleted! Make sure you created the backup branch in step 1)
 5. Push your commits
 6. Right click the HEAD commit of your backup branch
-7. Select merge (don't use *create a new commit*)
+7. Select merge (don't use *create a new commit even if fast-forward is possible*)
+8. Delete the temp branch
 
 &nbsp;
 
