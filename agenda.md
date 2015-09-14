@@ -125,15 +125,11 @@ planned before)
 
 > I prematurely pushed commits and want to undo the commits on origin.
 
-##### If it's just one commit'
+Do the following with every falsely pushed commit, starting with the *newest*:
 1. Right click the commit
 2. *Create reverse commit*
-3. Push the newly created reverse commit
 
-##### Else
-
-1. Think, McFly
-2. Think!
+Push all reverse commits afterwards.
 
 &nbsp;
 
