@@ -108,7 +108,15 @@ However pulling is no problem with an uncommitted working copy.
 
 > I prematurely pushed commits and want to undo the commits on origin.
 
+##### If it's just one commit'
+1. Right click the commit
+2. *Create reverse commit*
+3. Push the newly created reverse commit
 
+##### Else
+
+1. Think, McFly
+2. Think!
 
 &nbsp;
 
