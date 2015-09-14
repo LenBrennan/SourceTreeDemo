@@ -2,20 +2,20 @@
 
 ### General
 
-- `Language: Automatic ? English` (spooky denglish; obfuscates under-the-hood commands)
-- `Project folder: blank ? $GITROOT` (every file dialog will open this by default)
-- `Always display full console output: false ? true`	(tells you whats's going on under the hood, can be closed by pressing enter)
-- `Use fixed-width font for commit messages: false ? true`
-- `Display a column guide in commit messages at: false ? true; 72` (keep it short and simple; [post on subject](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html))
-- `After commiting, stay in commit dialog if there are still pending changes: false ? true` (helps when committing atomically)
+- Language: *Automatic &rarr; English* (spooky denglish; obfuscates under-the-hood commands)
+- Project folder: *blank &rarr; $GITROOT* (every file dialog will open this by default)
+- Always display full console output: *false &rarr; true*	(tells you whats's going on under the hood, can be closed by pressing enter)
+- Use fixed-width font for commit messages: *false &rarr; true*
+- Display a column guide in commit messages at: *false &rarr; true; 72* (keep it short and simple; [post on subject](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html))
+- After commiting, stay in commit dialog if there are still pending changes: *false &rarr; true* (helps when committing atomically)
 
 
 ### Git
-- `Push branches: matching ? simple` (not all tracked branches are checked when pushing; this mode will be the default in git 2.0 )
+- Push branches: *matching &rarr; simple* (not all tracked branches are checked when pushing; this mode will be the default in git 2.0 )
 
 ###### LARGELY OPIONION-BASED
-- `Use rebase instead of merge by default for tracked branches: false ? true`
-- `Do not fast-forward when merging, always create commit: false ? true`
+- Use rebase instead of merge by default for tracked branches: *false &rarr; true*
+- Do not fast-forward when merging, always create commit: *false &rarr; true*
 
 
 
@@ -29,8 +29,8 @@
 
 
 # No-Nos
-- Tools ? Settings ? Push to default/origin when committing (git != SVN)
-- Blindly pulling with unpushed commits. This will result in unwanted *"merge branch origin/XXX into XXX"* commits.
+- Tools &rarr; Settings &rarr; Push to default/origin when committing (git != SVN)
+- Blindly pulling with unpushed commits. This will result in unwanted *"merge branch XXX from https://origin into XXX"* commits.
 However pulling is no problem with an uncommitted working copy.
 
 
@@ -48,7 +48,7 @@ However pulling is no problem with an uncommitted working copy.
 ##### SourceTree way
 1. Copy the commit's hash
 2. Set log view to show current branch only
-3. Use Jump to: ? commit ? paste hash and press enter
+3. Use *Jump to: &rarr; commit &rarr;* paste hash and press enter
 4. If the commit is not found/ listed, it's not in the current branch
 
 ##### Git way
@@ -61,7 +61,7 @@ However pulling is no problem with an uncommitted working copy.
 1. Make sure you're on the right branch.
 2. Fetch
 3. Right click the latest commit on origin.
-4. `Reset current branch to this commit`
+4. *Reset current branch to this commit*
 5. Select mode hard
 
 
