@@ -132,9 +132,18 @@ planned before)
 
 > I prematurely pushed commits and want to undo the commits on origin.
 
+##### SourceTree way
 Do the following with every falsely pushed commit, starting with the *newest*:
 1. Right click the commit
 2. *Create reverse commit*
+
+##### Git way
+1. `git reverse HEAD~0`
+2. `git reverse HEAD~2`
+3. `git reverse HEAD~4`
+4. ... (add 2 for as many commits as you have to 'undo')
+
+&nbsp;
 
 Push all reverse commits afterwards.
 
