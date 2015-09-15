@@ -65,7 +65,7 @@ However pulling is no problem with an uncommitted working copy.
 
 ##### Git way
 Assuming you have 5 commits and want to push the first two
-`git push origin <branchName>~3:<branchName>`
+`git push origin <localBranchName>~3:<remoteBranchName>`
 
 
 &nbsp;
