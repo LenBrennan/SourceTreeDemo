@@ -63,9 +63,9 @@ However pulling is no problem with an uncommitted working copy.
 8. Delete the temp branch
 
 
-##### git way
+##### Git way
 Assuming you have 5 commits and want to push the first two
-`git push origin \<branchName>~3:<branchName>`
+`git push origin <branchName>~3:<branchName>`
 
 
 &nbsp;
