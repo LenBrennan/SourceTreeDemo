@@ -52,6 +52,7 @@ However pulling is no problem with an uncommitted working copy.
 
 > I made some commits but I'd like to only push the first two
 
+##### SourceTree way
 1. Create a new branch out of your current state (e.g. *temp/I_WANT_YOU_BACK_FOR_GOOD*) but do not check it out
 2. In your original branch right click the last commit you want to push
 3. *Reset current branch to this commit*
@@ -60,6 +61,12 @@ However pulling is no problem with an uncommitted working copy.
 6. Right click the HEAD commit of your backup branch
 7. Select merge (don't use *create a new commit even if fast-forward is possible*)
 8. Delete the temp branch
+
+
+##### git way
+Assuming you have 5 commits and want to push the first two
+`git push origin \<branchName>~3:<branchName>`
+
 
 &nbsp;
 
