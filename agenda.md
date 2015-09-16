@@ -20,10 +20,10 @@
 
 
 # Nice to know
-- The commit short hash is a clickable link. Use it in a commit message when you reference another commit.
+- The commit hash is a clickable link. Use it in a commit message when you reference another commit.
 - The current branch is printed in bold. (cf. `git branch -a`)
 - Branches are grouped in folders when their names contain a slash. (e.g. *release/1.4.1*)
-- You can stage segments or specific lines instead of entire files in the diff view.
+- You can stage segments or specific lines instead of entire files in the diff view. Beware that this might not work when the file's encoding and git encoding differ.
 - In the graph view the current branch is the leftmost.
 
 
